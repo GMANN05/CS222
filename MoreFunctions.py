@@ -9,13 +9,13 @@ def LetterGrade(average = 0):
         return "D" 
     else:
         return "F"
-#print(LetterGrade())
+print(LetterGrade())
 
 
 def foo(z, x=10, y=5):
     return x+y+z 
 
-#print(foo(3))
+print(foo(3))
 
 def factorial(n):
     if n ==1:
