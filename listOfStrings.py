@@ -10,6 +10,6 @@ def main():
            ["Patriots", "Jets", "Dolphins", "Bills"],
            ["Steelers", "Bengals", "Ravens", "Browns"],
            ["Broncos", "Chargers", "Cheifs", "Raiders"]]
-    print(afc[0][1][2])
+    print(afc)
 
 main()
