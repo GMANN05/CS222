@@ -8,7 +8,7 @@ class Account():
             print("Sorry, incorrect password. ")
             return None
         if amountToDepo < 0:
-            print("SYou cannot deposit a negative amount. ")
+            print("You cannot deposit a negative amount. ")
             return None
         self.balance += amountToDepo
         return self.balance
@@ -21,7 +21,7 @@ def main():
     alice = Account("0001", 10000.50, "bsu")
     bob = Account("0002", 100, "iu")
     bob.show()
-    alice.deposit(-200, "bsu")
+    alice.deposit(200, "bsu")
     alice.show()
 
 main()
