@@ -8,7 +8,7 @@ class testBankAccount(unittest.TestCase):
         self.assertEqual(self.account.balance, 100)
     def test_Withdraw(self):
         self.account.deposit(100)
-        self.withdraw(50)
+        self.account.withdraw(50)
         self.assertEqual(self.account.balance, 50)
     def test_Overdraw(self):
         self.account.deposit(100)
